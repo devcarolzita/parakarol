@@ -1,0 +1,22 @@
+{
+  "name": "parakarol",
+  "version": "1.0.0",
+  "description": "Para mi amore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcarolzita/parakarol.git"
+  },
+  "author": "devcarolzita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devcarolzita/parakarol/issues"
+  },
+  "homepage": "https://github.com/devcarolzita/parakarol#readme",
+  "dependencies": {
+    "progress": "^2.0.3"
+  }
+}
