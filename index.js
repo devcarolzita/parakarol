@@ -3,12 +3,11 @@ const exect = require('child_process').exec;
 const progressBar = require('./progressBar');
 const path = require('path');
 const fs = require('fs');
-const { log } = require('console');
 
 const playSong = function (receivedSoundPath, receivedSoundTime){
     
     const mainPath = path.dirname(fs.realpathSync(__filename));
-    const soundPath = receivedSoundPath ? receivedSoundPath : path.join(mainPath, './musicaKarol');
+    const soundPath = receivedSoundPath ? receivedSoundPath : path.join(mainPath, './musicakarol');
     const soundTime = receivedSoundTime ? receivedSoundTime : 38
 
 

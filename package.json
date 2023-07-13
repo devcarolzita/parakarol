@@ -4,11 +4,14 @@
   "description": "Para mi amore",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devcarolzita/parakarol.git"
+  },
+  "bin": {
+    "parakarol": "./index.js"
   },
   "author": "devcarolzita",
   "license": "ISC",
