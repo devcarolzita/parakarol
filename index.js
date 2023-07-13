@@ -12,7 +12,7 @@ const playSong = function (receivedSoundPath, receivedSoundTime){
 
 
     const linuxcmd = 'paplay '+soundPath+'.ogg';
-    const windowscmd = path.join(mainPath, './forWindows.vbs')+' '+soundPath+'.mp3';
+    const windowscmd = '"'+path.join(mainPath, './forWindows.vbs')+'" "'+soundPath+'.mp3"';
     const maccmd = 'afplay '+soundPath+'.mp3';
     
     const platform = process.platform;

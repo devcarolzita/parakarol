@@ -1,10 +1,10 @@
 {
   "name": "parakarol",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Para mi amore",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
